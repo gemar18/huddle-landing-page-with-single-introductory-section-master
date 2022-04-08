@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+:root {
+    --Violet: hsl(257, 40%, 49%);
+    --SoftMagenta: hsl(300, 69%, 71%);
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    background: url("images/bg-desktop.svg") no-repeat, var(--Violet);
+    background-size: contain;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+
+.wraper {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr 1fr;
+    max-width: 90%;
+
+}
+
+.one-container,
+.two-container {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    
+}
+
+.two-container {
+    margin-left: 100px;
+}
+
+.header {
+    margin-top: 100px;
+    margin-bottom: 115px;
+    font-family: 'Poppins', sans-serif;
+    width: 290px;
+    height: 60px;
+}
+
+.header img {
+    height: 80px;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+    margin: 350px 160px 0px 0px;
+    font-weight: 600;
+    padding-right: 200px;
+}
+
+p {
+    margin: 30px 150px 0px 0px;
+    font-weight: 400;   
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+button {
+    margin-top: 40px;
+    width: 260px;
+    height: 60px;
+    border-radius: 50px;
+    font-size: 22px;
+    color: var(--Violet);
+    box-shadow: 0px 5px 10px 0px black;
+}
+
+.icons-socials {
+    display: inline;
+    width: 225px;
+    height: 50px;
+    margin-top: 300px;
+    margin-left: 700px;
+}
+
+.icons-socials a {
+    padding: 20px;
+    border: 2px solid white;
+    color: white;
+    margin-left: 10px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: var(--SoftMagenta);
+    color: white;
+}
+
+.icons-socials a:hover {
+    border: 2px solid var(--SoftMagenta);
+    color: var(--SoftMagenta);
+    cursor: pointer;
+}
+
+.attribution {
+    visibility: hidden;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
