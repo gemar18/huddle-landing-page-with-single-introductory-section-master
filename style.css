@@ -29,10 +29,9 @@ main {
 
 .wraper {
     display: grid;
-    height: 100%;
     grid-template-columns: 1fr 1fr;
-    max-width: 90%;
-
+   height: 720px;
+width: 1300px;
 }
 
 .one-container,
@@ -40,44 +39,44 @@ main {
     display: flex;
     flex-direction: column;
     color: white;
-    
+  padding-left: 60px;
 }
 
-.two-container {
-    margin-left: 100px;
-}
+
 
 .header {
-    margin-top: 100px;
-    margin-bottom: 115px;
+    margin-top: 65px;
+    margin-bottom: 105px;
     font-family: 'Poppins', sans-serif;
-    width: 290px;
-    height: 60px;
+    width: 215px;
+    height: 35px;
 }
 
-.header img {
-    height: 80px;
+.mokups{
+    width: 662px;
+    height: 410px;
 }
 
-h1 {
-    font-size: 60px;
+h1 {width: 450px;
+    font-size: 35px;
     font-family: 'Poppins', sans-serif;
-    margin: 350px 160px 0px 0px;
+    margin: 240px 160px 0px 0px;
     font-weight: 600;
-    padding-right: 200px;
+
 }
 
 p {
-    margin: 30px 150px 0px 0px;
+    width: 500px;
+    margin-right: 92px;
     font-weight: 400;   
-    font-size: 30px;
-    letter-spacing: 1px;
+    font-size: 17px;
+  margin-top: 4px;
 }
 
 button {
-    margin-top: 40px;
-    width: 260px;
-    height: 60px;
+    margin-top: 30px;
+    width: 200px;
+    height: 54px;
     border-radius: 50px;
     font-size: 22px;
     color: var(--Violet);
@@ -86,20 +85,20 @@ button {
 
 .icons-socials {
     display: inline;
-    width: 225px;
-    height: 50px;
-    margin-top: 300px;
-    margin-left: 700px;
+    width: 250px;
+    height: 40px;
+    margin-top: 170px;
+    margin-left: 350px;
 }
 
 .icons-socials a {
-    padding: 20px;
+    padding: 10px;
     border: 2px solid white;
     color: white;
     margin-left: 10px;
     border-radius: 50%;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 button:hover {
